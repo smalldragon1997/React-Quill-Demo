@@ -1,0 +1,8 @@
+{
+  "presets": ["env","react"],
+  "plugins": [
+    "transform-runtime",
+    ["transform-object-rest-spread", {"useBuiltIns": true}],// 拓展对象符支持
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]// antd按需加载
+  ]
+}
